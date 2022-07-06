@@ -39,7 +39,7 @@ nav {
 
 .limitedOffer {
   font-size: 20px;
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid rgb(24, 228, 99);
   cursor: pointer;
 }
 
@@ -57,8 +57,10 @@ nav {
 }
 
 .slider {
+  /* background: url("https://www.pexels.com/photo/monochrome-photo-of-shoes-hanging-from-a-cable-10003524/"); */
   background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  /* clip-path: polygon(50% 0%, 100% 0, 100% 60%, 100% 99%, 68% 98%, 0 83%, 0 0); */
+  clip-path: polygon(41% 0, 100% 0, 100% 76%, 69% 100%, 0 100%, 0% 60%, 0 0);
   overflow: hidden;
 }
 
@@ -89,8 +91,8 @@ nav {
 
 .sliderTitle {
   position: absolute;
-  top: 10%;
-  right: 10%;
+  top: 0%;
+  right: 5%;
   font-size: 60px;
   font-weight: 900;
   text-align: center;
@@ -129,35 +131,35 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderBg {
-  background-color: #369e62;
+  background-color: #43fd84;
 }
 .sliderItem:nth-child(2) .sliderBg {
-  background-color: rebeccapurple;
+  background-color: rgb(209, 245, 249);
 }
 .sliderItem:nth-child(3) .sliderBg {
   background-color: teal;
 }
 .sliderItem:nth-child(4) .sliderBg {
-  background-color: cornflowerblue;
+  background-color: rgb(155, 151, 255);
 }
 .sliderItem:nth-child(5) .sliderBg {
   background-color: rgb(124, 115, 80);
 }
 
 .sliderItem:nth-child(1) .sliderPrice {
-  color: #369e62;
+  color: #43fd84;
 }
 .sliderItem:nth-child(2) .sliderPrice {
-  color: white;
+  color: rgb(209, 245, 249);
 }
 .sliderItem:nth-child(3) .sliderPrice {
   color: teal;
 }
 .sliderItem:nth-child(4) .sliderPrice {
-  color: cornflowerblue;
+  color: rgb(155, 151, 255);
 }
 .sliderItem:nth-child(5) .sliderPrice {
-  color: cornsilk;
+  color: rgb(124, 115, 80);
 }
 
 .features {
@@ -193,9 +195,11 @@ nav {
 
 .product {
   height: 100vh;
-  background-color: whitesmoke;
+  background-color: rgb(189, 252, 246);
   position: relative;
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  /* clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%); */
+  /* clip-path: polygon(41% 0, 90% 9%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0); */
+  clip-path: polygon(28% 1%, 100% 0, 100% 76%, 100% 100%, 0 100%, 0% 60%, 0 24%);
 }
 
 .payment {
@@ -261,7 +265,7 @@ label {
   left: 0;
   -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
-  background-color: #369e62;
+  background-color: #30a464;
   color: white;
   border: none;
   cursor: pointer;
@@ -539,7 +543,7 @@ label {
     padding: 50px;
   }
 
-  footer{
+ .footer{
     flex-direction: column;
     align-items: center;
   }

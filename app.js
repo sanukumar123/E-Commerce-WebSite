@@ -4,8 +4,8 @@ const menuItems = document.querySelectorAll(".menuItem");
 const products = [
   {
     id: 1,
-    title: "Air Force",
-    price: 119,
+    title: "PUMA",
+    price: 149,
     colors: [
       {
         code: "black",
@@ -19,8 +19,8 @@ const products = [
   },
   {
     id: 2,
-    title: "Air Jordan",
-    price: 149,
+    title: "CAMPUS",
+    price: 499,
     colors: [
       {
         code: "lightgray",
@@ -34,8 +34,8 @@ const products = [
   },
   {
     id: 3,
-    title: "Blazer",
-    price: 109,
+    title: "WOODLAND",
+    price: 299,
     colors: [
       {
         code: "lightgray",
@@ -49,8 +49,8 @@ const products = [
   },
   {
     id: 4,
-    title: "Crater",
-    price: 129,
+    title: "AQUALITE",
+    price: 89,
     colors: [
       {
         code: "black",
@@ -64,8 +64,8 @@ const products = [
   },
   {
     id: 5,
-    title: "Hippie",
-    price: 99,
+    title: "GOLDSTAR",
+    price: 69,
     colors: [
       {
         code: "gray",
